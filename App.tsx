@@ -15,9 +15,6 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import firebase from './firebaseConfig';
-
-console.log(firebase.app().options);
 
 import {
   Colors,
