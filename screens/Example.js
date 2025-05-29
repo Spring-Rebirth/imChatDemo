@@ -292,9 +292,8 @@ export function Example() {
 
     const renderActions = (props) => {
         return (
-            <Actions
-                {...props}
-                containerStyle={{
+            <TouchableOpacity
+                style={{
                     width: 44,
                     height: 44,
                     alignItems: 'center',
@@ -302,14 +301,13 @@ export function Example() {
                     marginLeft: 2,
                     marginRight: 2,
                     marginBottom: 1,
+                    backgroundColor: '#F3F4F6',
+                    borderRadius: 22,
                 }}
-                onPressActionButton={() => setShowEmojiPicker(!showEmojiPicker)}
-                icon={() => (
-                    <View className="bg-gray-100 hover:bg-gray-200 rounded-full w-11 h-11 items-center justify-center">
-                        <Text className="text-xl">😊</Text>
-                    </View>
-                )}
-            />
+                onPress={() => setShowEmojiPicker(!showEmojiPicker)}
+            >
+                <Text style={{ fontSize: 20 }}>😊</Text>
+            </TouchableOpacity>
         )
     }
 
