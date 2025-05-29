@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690718059209",
+    "project_id": "im-chat-demo",
+    "storage_bucket": "im-chat-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690718059209:android:118ecffcff8f84d8e7fb18",
+        "android_client_info": {
+          "package_name": "com.imchatdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxSfBTE7WptN8GMTBpDpdoNsXaBSRMCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
